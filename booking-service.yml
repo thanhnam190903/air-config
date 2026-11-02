@@ -1,0 +1,22 @@
+spring:
+  
+  datasource:
+    url: jdbc:mysql://localhost:3306/booking_db
+    username: root
+    password: root
+   
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    cosumer:
+      group-id: booking-service-group
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+
+server:
+  port: 8009
