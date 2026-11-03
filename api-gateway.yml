@@ -6,6 +6,6 @@ eureka:
   instance:
     prefer-ip-address: true
 
-service:
+server:
   port: 8000
 
